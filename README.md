@@ -15,11 +15,13 @@ Estimation Page Screen
 
 
 Print to Screen UI
-![image](https://user-images.githubusercontent.com/79794615/117181644-17082500-adf3-11eb-83cd-8f5cf7b36289.png)
+![image](https://user-images.githubusercontent.com/79794615/117182406-f2607d00-adf3-11eb-9f26-226947df488b.png)
+
 
 
 Print to paper screen
 ![image](https://user-images.githubusercontent.com/79794615/117181732-2d15e580-adf3-11eb-8949-7ac1e17969ff.png)
+
 
 
 Estimation List Screen
@@ -28,6 +30,7 @@ Estimation List Screen
 
 Add New Users Screen
 ![image](https://user-images.githubusercontent.com/79794615/117181564-fe980a80-adf2-11eb-8c1d-070fc4b9af4f.png)
+
 
 UserList Screen
 ![image](https://user-images.githubusercontent.com/79794615/117181793-3c952e80-adf3-11eb-9ec6-c5fd73e26b5c.png)
