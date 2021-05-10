@@ -47,15 +47,7 @@ class UsersList extends Component
 
     componentDidMount()
     {
-        // APIServices.GetAllUsers().then((res) => {
-        //     debugger
-        //     if((res!=null&&res!=undefined) &&(res.data!=undefined && res.data!='')){ 
-              
-        //       this.setState({UsersList:res.data})
-        //       console.log(this.state.UsersList);
-        //     }
-        //     else{}
-        //   });	
+       this.props.Get_All_User_Details();	
     }
 
 
@@ -165,9 +157,6 @@ debugger
          </div>
         
          <div class="pd-20">
-
-         <button onClick={this.props.Get_All_User_Details}>getvalues</button>
-       <br/><br/><br/>
          
          <table id="customers" class="data-table table stripe hover nowrap" style={{'margin-top':'-1em'}}>
     <thead>
@@ -179,12 +168,7 @@ debugger
       <th>Delete</th>
     </thead>
     <tbody style={{'overflow-y': 'auto;' }}>
-
          {  
-         
-       
-         
-         //this.state.UsersList.map((x,i)=>
          this.props.Users!=undefined?
          this.props.Users.map((x,i)=>
        
